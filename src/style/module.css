@@ -1,0 +1,30 @@
+.module {
+  background: white;
+  width: 100%;
+  margin: 5px;
+  /*padding: 20px;*/
+}
+.module .module-title {
+}
+.module .module-content {
+  width: 100%;
+  position: relative;
+}
+
+.module .module-content > el-table{
+  width: 100%;
+}
+.module-content > el-table > el-table-column {
+  width: 20%;
+}
+/* 谷歌 */
+.module .module-content input::-webkit-outer-spin-button,
+.module .module-content input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+/* 火狐 */
+.module .module-content input{
+  -moz-appearance:textfield;
+}
